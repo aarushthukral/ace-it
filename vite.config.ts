@@ -4,8 +4,8 @@ import fs from "fs";
 import { defineConfig } from "vite";
 import { crx, ManifestV3Export } from "@crxjs/vite-plugin";
 
-import manifest from "./manifest.json";
-import devManifest from "./manifest.dev.json";
+import manifest from "./public/manifest.json";
+import devManifest from "./public/manifest.dev.json";
 import pkg from "./package.json";
 
 const root = resolve(__dirname, "src");
