@@ -11,15 +11,10 @@
   "icons": {
     "128": "icon-128.png"
   },
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": ["activeTab"],
   "web_accessible_resources": [
     {
-      "resources": [
-        "icon-128.png",
-        "icon-32.png"
-      ],
+      "resources": ["icon-128.png", "icon-32.png"],
       "matches": []
     }
   ]
