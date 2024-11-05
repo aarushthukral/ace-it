@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Ace It!",
+  "version": "1.0.0",
   "description": "<description in manifest.json>",
   "action": {
     "default_popup": "src/pages/popup/index.html",
@@ -11,15 +12,10 @@
   "icons": {
     "128": "icon-128.png"
   },
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": ["activeTab"],
   "web_accessible_resources": [
     {
-      "resources": [
-        "icon-128.png",
-        "icon-32.png"
-      ],
+      "resources": ["icon-128.png", "icon-32.png"],
       "matches": []
     }
   ]
